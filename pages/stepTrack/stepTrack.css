@@ -1,0 +1,415 @@
+#Markbook {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 90%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(100, 30, 70, 0.15);
+    transition: transform .5s;
+}
+
+.content .button:hover {
+    transform: scale(2, 2);
+}
+
+#Markbook {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 90%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+#Markbook a{
+    color: white;
+    text-decoration: none;
+    
+}
+.markbook_filter{
+    padding: 5%;
+    background: gainsboro;
+    line-height: 200%;
+}
+
+#hideSelection {
+    display: block;
+}
+
+#Step{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 90%;
+    background-position: center;
+    background-color: antiquewhite;
+    line-height: 200%;
+}
+#StepTable{
+    padding: 5%;
+    position: center; 
+
+}
+
+/*--Depression--*/
+
+#Depression {
+    width: 100%;
+    padding: 150px 0;
+    background: #febfc8;
+    background: linear-gradient(to right, #f6dee0, #87adfe);
+}
+
+.Title_font {
+    text-align: center;
+    padding-bottom: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Title_font p {
+    margin: auto;
+    font-size: 40px;
+    color: rgb(32, 149, 132);
+    font-weight: bold;
+    position: relative;
+}
+
+
+#stepTrackTable {
+    border-collapse: collapse;
+    /* Collapse borders */
+    width: 100%;
+    /* Full-width */
+    border: 1px solid #ddd;
+    /* Add a grey border */
+    font-size: 18px;
+    /* Increase font-size */
+    grid-auto-columns: repeat(auto-fill, minmax(150px, 1fr));
+    background-color: #d0edfaad;
+}
+
+#stepTrackTable th,
+#stepTrackTable td {
+    text-align: left;
+    /* Left-align text */
+    padding: 12px;
+    /* Add padding */
+}
+
+#stepTrackTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid rgb(142, 136, 136);
+}
+
+#stepTrackTable h1 {
+    font-size: 20px;
+    font-weight: 700;
+    word-spacing: 2;
+}
+
+#stepTrackTable p {
+    font-size: 16px;
+    font-style: italic;
+    word-spacing: 1.5;
+    text-align: justify;
+    color: #395c6b;
+}
+
+#stepTrackTable tr.TypeOfDescriptionHeader,
+#stepTrackTable tr:hover {
+    /* Add a grey background color to the table TypeOfDescriptionHeader and on hover */
+    background-color: #f2f2f2;
+}
+
+#stepTrackTable th {
+    /* Add a grey background color to the table header */
+    background-color: rgb(208, 202, 202);
+    color: #394b6b;
+}
+
+#clear  {
+    margin-right: 0.01ch;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    color: #394b6b;
+    border: 2px solid #394b6b;
+}
+
+#clear:hover {
+    background-color: #445a80;
+    color: white;
+}
+
+#apply:hover {
+    background-color: #0e6b41;
+    color: white;
+}
+
+#choice .button {
+    margin: 70px auto 0;
+    position: relative;
+}
+
+#choice a {
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: rgb(183, 174, 174);
+    border: 2px solid rgb(183, 174, 174);
+    position: relative;
+    z-index: 1;
+    transition: 1.5s;
+}
+
+#choice a span {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: -1;
+    transition: 1s;
+}
+
+#choice a:hover span {
+    width: 100%;
+    background-color: #b2c6ee;
+}
+
+#choice a:hover {
+    color: rgb(19, 63, 134);
+    text-decoration: underline;
+}
+
+#choice2 {
+    position: relative;
+    padding-left: 75%;
+    padding-bottom: 3%;
+    
+}
+
+#choice2 a {
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: rgb(183, 174, 174);
+    border: 2px solid rgb(183, 174, 174);
+    position: relative;
+    z-index: 1;
+    transition: 1.5s;
+}
+
+#choice2 a span {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: -1;
+    transition: 1s;
+}
+
+#choice2 a:hover span {
+    width: 100%;
+    background-color: #b2c6ee;
+}
+
+#choice2 a:hover {
+    color: rgb(19, 63, 134);
+    text-decoration: underline;
+}
+
+#stepTable {
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* Collapse borders */
+    width: 100%;
+    /* Full-width */
+    border: 1px solid #ddd;
+    /* Add a grey border */
+    font-size: 18px;
+    /* Increase font-size */
+    grid-auto-columns: repeat(auto-fill, minmax(150px, 1fr));
+    background-color: #ffffffad;
+}
+
+#stepTable th,
+#stepTable td {
+    text-align: left;
+    /* Left-align text */
+    padding: 12px;
+    /* Add padding */
+    
+}
+
+#stepTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid rgb(142, 136, 136);
+}
+
+#stepTable h1 {
+    font-size: 20px;
+    font-weight: 700;
+    word-spacing: 2;
+}
+
+#stepTable p {
+    font-size: 16px;
+    font-style: italic;
+    word-spacing: 1.5;
+    text-align: justify;
+    color: #395c6b;
+}
+
+#stepTable tr:hover {
+    /* Add a grey background color to the table TypeOfDescriptionHeader and on hover */
+    background-color: #ffe4e4;
+}
+
+#stepTable th {
+    /* Add a grey background color to the table header */
+    background-color: rgb(216, 209, 209);
+    color: #394b6b;
+}
+
+#Steps img {
+    width: 98%;
+    max-width: 100cm;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#evidenceTable {
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* Collapse borders */
+    width: 100%;
+    /* Full-width */
+    border: 1px solid #ddd;
+    /* Add a grey border */
+    font-size: 18px;
+    /* Increase font-size */
+    grid-auto-columns: repeat(auto-fill, minmax(150px, 1fr));
+    background-color: #f8f3f3ad;
+}
+
+#evidenceTable th,
+#evidenceTable td {
+    text-align: left;
+    /* Left-align text */
+    padding: 12px;
+    /* Add padding */
+    
+}
+
+#evidenceTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid rgb(142, 136, 136);
+}
+
+#evidenceTable h1 {
+    font-size: 20px;
+    font-weight: 700;
+    word-spacing: 2;
+}
+
+#evidenceTable p {
+    font-size: 16px;
+    font-style: italic;
+    word-spacing: 1.5;
+    text-align: justify;
+    color: #395c6b;
+}
+
+#evidenceTable tr:hover {
+    /* Add a grey background color to the table TypeOfDescriptionHeader and on hover */
+    background-color: #e9dddd;
+}
+
+#evidenceTable th {
+    /* Add a grey background color to the table header */
+    background-color: rgb(216, 209, 209);
+    color: #394b6b;
+}
+
+#studentCardList{
+    border-collapse: collapse;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* Collapse borders */
+    width: 100%;
+    /* Full-width */
+    border: 1px solid #ddd;
+    /* Add a grey border */
+    font-size: 18px;
+    /* Increase font-size */
+    grid-auto-columns: repeat(auto-fill, minmax(150px, 1fr));
+    background-color: #c3e1e3c4;
+}
+
+#studentCardList th,
+#studentCardList td {
+    text-align: left;
+    /* Left-align text */
+    padding: 12px;
+    /* Add padding */
+    
+}
+
+#studentCardList tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid rgb(142, 136, 136);
+}
+
+#studentCardList h3 {
+    font-size: 20px;
+    font-weight: 700;
+    word-spacing: 2;
+}
+
+
+#studentCardList h4 {
+    font-size: 16px;
+    font-style: italic;
+    word-spacing: 1.5;
+    text-align: justify;
+    color: #395c6b;
+}
+
+#studentCardList tr:hover {
+    /* Add a grey background color to the table TypeOfDescriptionHeader and on hover */
+    background-color: #e9f8f4;
+}
+
+#studentCardList th {
+    /* Add a grey background color to the table header */
+    background-color: rgb(70, 92, 139);
+    color: #ffffff;
+}
+
+#Evidences {
+    display: none;
+}
+
+.grade-N { background-color: rgb(189, 189, 189); }
+.grade-E { background-color: rgb(255, 255, 138); }
+.grade-D { background-color: rgb(158, 244, 255); }
+.grade-S { background-color: rgb(149, 255, 211); }

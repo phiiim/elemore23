@@ -1,0 +1,1183 @@
+{
+    "academic_years": [
+      {
+        "year": "2022",
+        "class_groups": [
+          {
+            "group_name": "Group A",
+            "students": [
+              {
+                "student_id": 1000,
+                "first_name": "Mei",
+                "last_name": "Sor",
+                "subjects": [
+                  {
+                    "subject_name": "Mathematics",
+                    "semesters": [
+                      { "semester": "first", "step": "S" },
+                      { "semester": "second", "step": "N" },
+                      { "semester": "third", "step": "D" }
+                    ]
+                  },
+                  {
+                    "subject_name": "Science",
+                    "terms": [
+                      { "semester": "first", "step": "D" },
+                      { "semester": "second", "step": "D" },
+                      { "semester": "third", "step": "D" }
+                    ]
+                  },
+                  {
+                    "subject_name": "English",
+                    "terms": [
+                      { "semester": "first", "step": "D" },
+                      { "semester": "second", "step": "D" },
+                      { "semester": "third", "step": "D" }
+                    ]
+                  },
+                  {
+                    "subject_name": "History",
+                    "terms": [
+                      { "semester": "first", "step": "D" },
+                      { "semester": "second", "step": "D" },
+                      { "semester": "third", "step": "D" }
+                    ]
+                  },
+                  {
+                    "subject_name": "Computer Science",
+                    "terms": [
+                      { "semester": "first", "step": "D" },
+                      { "semester": "second", "step": "D" },
+                      { "semester": "third", "step": "D" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "student_id": 1001,
+                "first_name": "Megan",
+                "last_name": "Law",
+                "subjects": [
+                  {
+                    "subject_name": "Mathematics",
+                    "semester": {
+                      "first": "S",
+                      "second": "S",
+                      "third" : "S"
+                    }
+                  },
+                  {
+                    "subject_name": "Science",
+                    "semester": {
+                      "first": "S",
+                      "second": "S",
+                      "third" : "S"
+                    }
+                  },
+                  {
+                    "subject_name": "English",
+                    "semester": {
+                      "first": "E",
+                      "second": "N",
+                      "third" : "S"
+                    }
+                  },
+                  {
+                    "subject_name": "History",
+                    "semester": {
+                      "first": "S",
+                      "second": "S",
+                      "third" : "S"
+                    }
+                  },
+                  {
+                    "subject_name": "Computer Science",
+                    "semester": {
+                      "first": "S",
+                      "second": "N",
+                      "third" : "S"
+                    }
+                  }
+                ]
+              },
+              {
+                "student_id": 1002,
+                "first_name": "Oscar",
+                "last_name": "Yu",
+                "subjects": [
+                  {
+                    "subject_name": "Mathematics",
+                    "semester": {
+                      "first": "D",
+                      "second": "S",
+                      "third" : "S"
+                    }
+                  },
+                  {
+                    "subject_name": "Science",
+                    "semester": {
+                      "first": "S",
+                      "second": "S",
+                      "third" : "S"
+                    }
+                  },
+                  {
+                    "subject_name": "English",
+                    "semester": {
+                      "first": "E",
+                      "second": "D",
+                      "third" : "S"
+                    }
+                  },
+                  {
+                    "subject_name": "History",
+                    "semester": {
+                      "first": "S",
+                      "second": "S",
+                      "third" : "D"
+                    }
+                  },
+                  {
+                    "subject_name": "Computer Science",
+                    "semester": {
+                      "first": "S",
+                      "second": "E",
+                      "third" : "S"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "group_name": "Group B",
+            "students": [
+                {
+                  "student_id": 1003,
+                  "first_name": "Dylan",
+                  "last_name": "Chua",
+                  "subjects": [
+                    {
+                      "subject_name": "Mathematics",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "English",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "History",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Computer Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "student_id": 1004,
+                  "first_name": "Megan",
+                  "last_name": "Law",
+                  "subjects": [
+                    {
+                      "subject_name": "Mathematics",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "English",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "History",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Computer Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "student_id": 1005,
+                  "first_name": "Oscar",
+                  "last_name": "Yu",
+                  "subjects": [
+                    {
+                      "subject_name": "Mathematics",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "English",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "History",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Computer Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    }
+                  ]
+                }
+              ]
+          },
+          {
+            "group_name": "Group C",
+            "students": [
+                {
+                  "student_id": 1006,
+                  "first_name": "Kang",
+                  "last_name": "Fu",
+                  "subjects": [
+                    {
+                      "subject_name": "Mathematics",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "English",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "History",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Computer Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "student_id": 1007,
+                  "first_name": "Megan",
+                  "last_name": "Law",
+                  "subjects": [
+                    {
+                      "subject_name": "Mathematics",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "English",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "History",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Computer Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "student_id": 1008,
+                  "first_name": "Oscar",
+                  "last_name": "Yu",
+                  "subjects": [
+                    {
+                      "subject_name": "Mathematics",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "English",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "History",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Computer Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    }
+                  ]
+                }
+              ]
+          },
+          {
+            "group_name": "Group D",
+            "students": [
+                {
+                  "student_id": 1009,
+                  "first_name": "Mei",
+                  "last_name": "Sor",
+                  "subjects": [
+                    {
+                      "subject_name": "Mathematics",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "English",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "History",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Computer Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "student_id": 1010,
+                  "first_name": "Megan",
+                  "last_name": "Law",
+                  "subjects": [
+                    {
+                      "subject_name": "Mathematics",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "English",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "History",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Computer Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "student_id": 1011,
+                  "first_name": "Oscar",
+                  "last_name": "Yu",
+                  "subjects": [
+                    {
+                      "subject_name": "Mathematics",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "English",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "History",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Computer Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    }
+                  ]
+                }
+              ]
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "class_groups": [
+          {
+            "group_name": "Group A",
+            "students": [
+              {
+                "student_id": 1012,
+                "first_name": "Mei",
+                "last_name": "Sor",
+                "subjects": [
+                  {
+                    "subject_name": "Mathematics",
+                    "semester": {
+                      "first": "E",
+                      "second": "D",
+                      "third" : "S"
+                    }
+                  },
+                  {
+                    "subject_name": "Science",
+                    "semester": {
+                      "first": "E",
+                      "second": "D",
+                      "third" : "S"
+                    }
+                  },
+                  {
+                    "subject_name": "English",
+                    "semester": {
+                      "first": "E",
+                      "second": "D",
+                      "third" : "S"
+                    }
+                  },
+                  {
+                    "subject_name": "History",
+                    "semester": {
+                      "first": "E",
+                      "second": "D",
+                      "third" : "S"
+                    }
+                  },
+                  {
+                    "subject_name": "Computer Science",
+                    "semester": {
+                      "first": "E",
+                      "second": "D",
+                      "third" : "S"
+                    }
+                  }
+                ]
+              },
+              {
+                "student_id": 1013,
+                "first_name": "Megan",
+                "last_name": "Law",
+                "subjects": [
+                  {
+                    "subject_name": "Mathematics",
+                    "semester": {
+                      "first": "E",
+                      "second": "D",
+                      "third" : "S"
+                    }
+                  },
+                  {
+                    "subject_name": "Science",
+                    "semester": {
+                      "first": "E",
+                      "second": "D",
+                      "third" : "S"
+                    }
+                  },
+                  {
+                    "subject_name": "English",
+                    "semester": {
+                      "first": "E",
+                      "second": "D",
+                      "third" : "S"
+                    }
+                  },
+                  {
+                    "subject_name": "History",
+                    "semester": {
+                      "first": "E",
+                      "second": "D",
+                      "third" : "S"
+                    }
+                  },
+                  {
+                    "subject_name": "Computer Science",
+                    "semester": {
+                      "first": "E",
+                      "second": "D",
+                      "third" : "S"
+                    }
+                  }
+                ]
+              },
+              {
+                "student_id": 1014,
+                "first_name": "Oscar",
+                "last_name": "Yu",
+                "subjects": [
+                  {
+                    "subject_name": "Mathematics",
+                    "semester": {
+                      "first": "E",
+                      "second": "D",
+                      "third" : "S"
+                    }
+                  },
+                  {
+                    "subject_name": "Science",
+                    "semester": {
+                      "first": "E",
+                      "second": "D",
+                      "third" : "S"
+                    }
+                  },
+                  {
+                    "subject_name": "English",
+                    "semester": {
+                      "first": "E",
+                      "second": "D",
+                      "third" : "S"
+                    }
+                  },
+                  {
+                    "subject_name": "History",
+                    "semester": {
+                      "first": "E",
+                      "second": "D",
+                      "third" : "S"
+                    }
+                  },
+                  {
+                    "subject_name": "Computer Science",
+                    "semester": {
+                      "first": "E",
+                      "second": "D",
+                      "third" : "S"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "group_name": "Group B",
+            "students": [
+                {
+                  "student_id": 1015,
+                  "first_name": "Mei",
+                  "last_name": "Sor",
+                  "subjects": [
+                    {
+                      "subject_name": "Mathematics",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "English",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "History",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Computer Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "student_id": 1016,
+                  "first_name": "Megan",
+                  "last_name": "Law",
+                  "subjects": [
+                    {
+                      "subject_name": "Mathematics",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "English",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "History",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Computer Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "student_id": 1017,
+                  "first_name": "Oscar",
+                  "last_name": "Yu",
+                  "subjects": [
+                    {
+                      "subject_name": "Mathematics",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "English",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "History",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Computer Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    }
+                  ]
+                }
+              ]
+          },
+          {
+            "group_name": "Group C",
+            "students": [
+                {
+                  "student_id": 1018,
+                  "first_name": "Mei",
+                  "last_name": "Sor",
+                  "subjects": [
+                    {
+                      "subject_name": "Mathematics",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "English",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "History",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Computer Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "student_id": 1019,
+                  "first_name": "Megan",
+                  "last_name": "Law",
+                  "subjects": [
+                    {
+                      "subject_name": "Mathematics",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "English",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "History",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Computer Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "student_id": 1020,
+                  "first_name": "Oscar",
+                  "last_name": "Yu",
+                  "subjects": [
+                    {
+                      "subject_name": "Mathematics",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "English",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "History",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Computer Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    }
+                  ]
+                }
+              ]
+          },
+          {
+            "group_name": "Group D",
+            "students": [
+                {
+                  "student_id": 1021,
+                  "first_name": "Mei",
+                  "last_name": "Sor",
+                  "subjects": [
+                    {
+                      "subject_name": "Mathematics",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "English",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "History",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Computer Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "student_id": 1022,
+                  "first_name": "Megan",
+                  "last_name": "Law",
+                  "subjects": [
+                    {
+                      "subject_name": "Mathematics",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "English",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "History",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Computer Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "student_id": 1023,
+                  "first_name": "Oscar",
+                  "last_name": "Yu",
+                  "subjects": [
+                    {
+                      "subject_name": "Mathematics",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "English",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "History",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    },
+                    {
+                      "subject_name": "Computer Science",
+                      "semester": {
+                        "first": "E",
+                        "second": "D",
+                        "third" : "S"
+                      }
+                    }
+                  ]
+                }
+              ]
+          }
+        ]
+      }
+    ]
+  }
+  

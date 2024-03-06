@@ -1,0 +1,121 @@
+[{
+        "Type": "Megan Law",
+        "Description": "1A",
+        "English": "A",
+        "Mathematics": "C",
+        "Food_Technology": "A",
+        "Computer_Science": "B",
+        "Cooking":"D"
+
+
+    },
+    {
+        "Type": "Oscar Yau",
+        "Description": "1A",
+        "English": "A",
+        "Mathematics": "A+",
+        "Food_Technology": "B+",
+        "Computer_Science": "S",
+        "Cooking":"D"
+    },
+    {
+        "Type": "Mei",
+        "Description": "1B",
+        "English": "A",
+        "Mathematics": "B-",
+        "Food_Technology": "A",
+        "Computer_Science": "A",
+        "Cooking":"C"
+
+    },
+    {
+        "Type": "Dylan",
+        "Description": "1C",
+        "English": "D",
+        "Mathematics": "C",
+        "Food_Technology": "B",
+        "Computer_Science": "A",
+        "Cooking":"E"
+
+    },
+    {
+        "Type": "Ivy",
+        "Description": "2A",
+        "English": "B",
+        "Mathematics": "F",
+        "Food_Technology": "C",
+        "Computer_Science": "A",
+        "Cooking":"A"
+
+    },
+    {
+        "Type": "Raine",
+        "Description": ["2B"],
+        "English": "C",
+        "Mathematics": "A",
+        "Food_Technology": "D",
+        "Computer_Science": "C",
+        "Cooking":"B"
+
+    },
+    {
+        "Type": "Katy",
+        "Description": ["2B"],
+        "English": "A",
+        "Mathematics": "C",
+        "Food_Technology": "D",
+        "Computer_Science": "B",
+        "Cooking":"A"
+
+    },
+    {
+        "Type": "Terry",
+        "Description": ["2A"],
+        "English": "C",
+        "Mathematics": "A",
+        "Food_Technology": "B",
+        "Computer_Science": "B",
+        "Cooking":"D"
+
+    },
+    {
+        "Type": "Mandy",
+        "Description": ["2B"],
+        "English": "B",
+        "Mathematics": "A",
+        "Food_Technology": "A",
+        "Computer_Science": "A",
+        "Cooking":"A"
+
+    },
+    {
+        "Type": "Raymond",
+        "Description": ["2B"],
+        "English": "A",
+        "Mathematics": "C",
+        "Food_Technology": "S",
+        "Computer_Science": "B",
+        "Cooking":"A"
+
+    },
+    {
+        "Type": "Max",
+        "Description": ["1E"],
+        "English": "A",
+        "Mathematics": "B",
+        "Food_Technology": "C",
+        "Computer_Science": "A",
+        "Cooking":"S"
+
+    },
+    {
+        "Type": "Otto",
+        "Description": ["2A"],
+        "English": "B",
+        "Mathematics": "C",
+        "Food_Technology": "S",
+        "Computer_Science": "C",
+        "Cooking":"E"
+
+    }
+]

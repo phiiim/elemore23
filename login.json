@@ -1,0 +1,110 @@
+{
+    "data" : [
+        {
+            "group" : "teacher",
+            "users" : [
+            {
+                "username" : "pdk@gmail.com",
+                "password" : "12345"
+            },
+            {
+                "username" : "pdkyr@gmail.com",
+                "password" : "12345"
+            },
+            {
+                "username" : "pttyry@gmail.com",
+                "password" : "12345"
+            },
+            {
+                "username" : "oscar@gmail.com",
+                "password" : "12345"
+            },
+            {
+                "username" : "dylan@gmail.com",
+                "password" : "12345"
+            },
+            {
+                "username" : "oscar@gmail.com",
+                "password" : "12345"
+            },
+            {
+                "username" : "pdk@gmail.com",
+                "password" : "12345"
+            },
+            {
+                "username" : "pdk@gmail.com",
+                "password" : "12345"
+            },
+            {
+                "username" : "pdk@gmail.com",
+                "password" : "12345"
+            },
+            {
+                "username" : "pdk@gmail.com",
+                "password" : "12345"
+            },
+            {
+                "username" : "pdk@gmail.com",
+                "password" : "12345"
+            },
+            {
+                "username" : "pdk@gmail.com",
+                "password" : "12345"
+            }
+            ]
+        },
+        {
+        "group" : "student",
+            "users" : [
+            {
+                "username" : "abcd12",
+                "password" : "12345"
+            },
+            {
+                "username" : "bcde12",
+                "password" : "12345"
+            },
+            {
+                "username" : "cdef23",
+                "password" : "12345"
+            },
+            {
+                "username" : "abcd23",
+                "password" : "12345"
+            },
+            {
+                "username" : "pdkj89",
+                "password" : "12345"
+            },
+            {
+                "username" : "poey34",
+                "password" : "12345"
+            },
+            {
+                "username" : "kieo29",
+                "password" : "12345"
+            },
+            {
+                "username" : "plep78",
+                "password" : "12345"
+            },
+            {
+                "username" : "pyet34",
+                "password" : "12345"
+            },
+            {
+                "username" : "gheu56",
+                "password" : "12345"
+            },
+            {
+                "username" : "keuy35",
+                "password" : "12345"
+            },
+            {
+                "username" : "lpow23",
+                "password" : "12345"
+            }
+            ]
+        }      
+    ]
+}

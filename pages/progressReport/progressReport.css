@@ -1,0 +1,16 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    margin: 10px 0px;
+    align-items: center;
+    width: 50%;
+}
+
+.card>button{
+    margin-left: auto;
+}
+
+.card>span{
+    margin-left: 10px;
+}

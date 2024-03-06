@@ -1,0 +1,79 @@
+.form-select
+{
+    display:block;
+}
+
+#Search-Box
+{
+    display:none;
+}
+
+
+
+.filterInfoText
+{
+    white-space: nowrap;
+    
+}
+
+.filterInfoBox
+{
+    display:none;
+    border-radius: 20px;
+    border: 1px lightgrey;
+    padding: 5px;
+    width: max-content ;
+    background-color: #f2f2f2;
+    align-items:center;
+    margin-top: 5px;
+}
+
+#textBoxOne
+{
+    display:none;
+    border-radius: 20px;
+    border: 1px lightgrey;
+    padding: 5px;
+    width: max-content ;
+    background-color: #f2f2f2;
+    align-items:center;
+    margin-top: 5px;
+}
+
+#textBoxTwo
+{
+    display:none;
+    border-radius: 20px;
+    border: 1px lightgrey;
+    padding: 5px;
+    width: max-content ;
+    background-color: #f2f2f2;
+    align-items:center;
+    margin-top: 5px;
+}
+
+
+.filterInfoCircle
+{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+
+}
+
+#colour-squareTwo
+{
+    width:20px;
+    height:20px;
+    background-color:#e43202;
+    border-radius: 50%;
+
+}
+
+
+
+#filterInfoTwo 
+{
+    white-space: nowrap;
+}
+

@@ -1,0 +1,36 @@
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px; /* Adjust as needed */
+}
+.save-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* Adjust border width for cells in Y7 to Y11 columns */
+th[data-column="Y7"],
+th[data-column="Y8"],
+th[data-column="Y9"],
+th[data-column="Y10"],
+th[data-column="Y11"] {
+  border-width: 1px; /* Adjust the border width as needed */
+}
+/* Style the input fields inside table cells */
+table input[type="text"] {
+  width: calc(100% - 6px); /* Subtract the padding and border width */
+  height: calc(100% - 6px); /* Subtract the padding and border width */
+  padding: 0;
+  border: none;
+  text-align: center; /* Center the text within the input field */
+  font-size: inherit; /* Inherit the font size from the table */
+}
+
+/* Set padding and border for table cells */
+td {
+  padding: 5px;
+  border: 1px solid #dee2e6; /* Set border for table cells */
+}

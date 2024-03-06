@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steps Tracker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+    <link rel="stylesheet" href="../../component/main.css">
+    <script defer src="../../component/sidebar/sidebar.js"></script>
+    <link rel="stylesheet" href="stepTrack.css">
+    <script defer src="stepTrack.js"></script>
+    
+</head>
+<body>
+    <side-bar></side-bar>
+    <div class="content">
+        <span class="title">Steps Tracker</span>
+        <div class="path"></div>
+        <br>
+       <h1>Select a group and subject to load the Markbook.</h1> 
+       <br> 
+       <div class="flex-1 p-10">
+        <div class="bg-white shadow rounded p-5">
+            <div class="Step_filter">
+                <label for="group">Group</label>
+                <select id="curriculum" class="w-full p-2 border border-gray-300 rounded mt-1">
+                    <option>1A</option>
+                    <option>1B</option>
+                    <option>1C</option>
+                    <option>1D</option>
+                    <option>2A</option>
+                    <option>2B</option>
+                    <option>2C</option>
+                </select>
+            </div>
+            <br><br>
+            <div class="Step_filter">
+                <label for="curriculum">Curriculum</label>
+                <select id="curriculum" class="w-full p-2 border border-gray-300 rounded mt-1">
+                <option>Elemore Hall Curriculum</option>
+                </select>
+            </div>
+            <br><br>
+            <div class="Step_filter">
+                <label for="subject">Subject</label>
+                <select id="subject" class="w-full p-2 border border-gray-300 rounded mt-1">
+                    <option>Select subject</option>
+                    <option>English</option> 
+                    <option>Mathematics</option> 
+                    <option>Food Technology</option> 
+                    <option>Computer Science</option> 
+                    <option>Cooking</option> 
+                </select>
+            </div>      
+        </div>
+    </div>
+
+    
+            <div class="filtering_markbook">
+                <section id="Depression">
+                    <br>
+                        <div class="Searchlist">
+                            <h1>Search for Student</h1>
+                            <br>
+                            <div class="SearchBar">
+                                <input type="text" id="SearchingInput" onkeyup="Searchlist()" class="form-control rounded" placeholder="Search for the name of the student..." aria-label="Search" aria-describedby="search-addon" />
+                            </div>
+                            <!--https://www.webmd.com/depression/guide/depression-types#091e9c5e80074279-3-7-->
+                            <!-- <table class="table align-middle mb-0 bg-white"> https://mdbootstrap.com/docs/standard/data/tables/ -->
+                            <table id="TypeOfDescription">
+                                <thead>
+                                    <tr class="TypeOfDescriptionHeader">
+                                        <th style="width:30%;">Student Name</th>
+                                        <th style="width:20%;">Class</th>
+                                        <th style="width:10%;">English</th>
+                                        <th style="width:10%;">Mathematics</th>
+                                        <th style="width:10%;">Food Technology</th>
+                                        <th style="width:10%;">Computer Science</th>
+                                        <th style="width:10%;">Cooking</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="SymptomsTable">
+                                    <!-- Prodcuts from javascript file in here. -->
+                                </tbody>
+                            </table>
+                            <br><br>
+                        </div>
+                    <br>
+            </div>
+            <!-- Main content -->
+            <br>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

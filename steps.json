@@ -1,0 +1,232 @@
+[{
+  "_id": {
+    "$oid": "65cab82bd71cc9f6685e9a8a"
+  },
+  "studentID": "1000",
+  "studentName": "Oscar Yu",
+  "subject": "Math",
+  "stepNum": "01",
+  "subStep": [
+    {
+      "description": "learnt addition",
+      "grade": "D",
+      "evidence": null
+    },
+    {
+      "description": "learnt deduction",
+      "grade": "D",
+      "evidence": null
+    }
+  ],
+  "overallGrade": "1D",
+  "term": "autumn",
+  "calenderYear": "2024",
+  "year": "Year 11",
+  "class": "Group A"
+},
+{
+  "_id": {
+    "$oid": "65cab88cd71cc9f6685e9a8c"
+  },
+  "studentID": "1000",
+  "studentName": "Oscar Yu",
+  "subject": "Math",
+  "stepNum": "02",
+  "subStep": [
+    {
+      "description": "learnt mutiplication",
+      "grade": "D",
+      "evidence": null
+    },
+    {
+      "description": "learnt division",
+      "grade": "E",
+      "evidence": null
+    }
+  ],
+  "overallGrade": "2E",
+  "term": "autumn",
+  "calenderYear": "2024",
+  "year": "Year 11",
+  "class": "Group A"
+},
+{
+  "_id": {
+    "$oid": "65cac2878454783e1fa52852"
+  },
+  "studentID": "1002",
+  "studentName": "Mei",
+  "subject": "Math",
+  "stepNum": "01",
+  "subStep": [
+    {
+      "description": "learnt mutiplication",
+      "grade": "D",
+      "evidence": null
+    },
+    {
+      "description": "learnt division",
+      "grade": "E",
+      "evidence": null
+    }
+  ],
+  "overallGrade": "2E",
+  "term": "autumn",
+  "calenderYear": "2024",
+  "year": "Year 11",
+  "class": "Group A"
+},
+{
+  "_id": {
+    "$oid": "65cac2bb8454783e1fa52853"
+  },
+  "studentID": "1002",
+  "studentName": "Mei",
+  "subject": "Math",
+  "stepNum": "02",
+  "subStep": [
+    {
+      "description": "learnt mutiplication",
+      "grade": "D",
+      "evidence": null
+    },
+    {
+      "description": "learnt division",
+      "grade": "E",
+      "evidence": null
+    }
+  ],
+  "overallGrade": "2E",
+  "term": "autumn",
+  "calenderYear": "2024",
+  "year": "Year 11",
+  "class": "Group A"
+},
+{
+  "_id": {
+    "$oid": "65cac5c4d71cc9f6685e9a8f"
+  },
+  "studentID": "1000",
+  "studentName": "Oscar Yu",
+  "subject": "Math",
+  "stepNum": "01",
+  "subStep": [
+    {
+      "description": "learnt abc",
+      "grade": "D",
+      "evidence": null
+    },
+    {
+      "description": "learnt def",
+      "grade": "E",
+      "evidence": null
+    }
+  ],
+  "overallGrade": "1E",
+  "term": "autumn",
+  "calenderYear": "2024",
+  "year": "Year 11",
+  "class": "Group A"
+},
+{
+  "_id": {
+    "$oid": "65cac5c4d71cc9f6685e9a90"
+  },
+  "studentID": "1000",
+  "studentName": "Oscar Yu",
+  "subject": "Math",
+  "stepNum": "02",
+  "subStep": [
+    {
+      "description": "learnt hi",
+      "grade": "D",
+      "evidence": null
+    },
+    {
+      "description": "learnt bye",
+      "grade": "E",
+      "evidence": null
+    }
+  ],
+  "overallGrade": "2E",
+  "term": "autumn",
+  "calenderYear": "2024",
+  "year": "Year 11",
+  "class": "Group A"
+},
+{
+  "_id": {
+    "$oid": "65cac5f9d71cc9f6685e9a92"
+  },
+  "studentID": "1002",
+  "studentName": "Mei",
+  "subject": "Math",
+  "stepNum": "01",
+  "subStep": [
+    {
+      "description": "learnt abc",
+      "grade": "D",
+      "evidence": null
+    },
+    {
+      "description": "learnt edf",
+      "grade": "E",
+      "evidence": null
+    }
+  ],
+  "overallGrade": "1E",
+  "term": "autumn",
+  "calenderYear": "2024",
+  "year": "Year 11",
+  "class": "Group A"
+},
+{
+  "_id": {
+    "$oid": "65cac5f9d71cc9f6685e9a93"
+  },
+  "studentID": "1002",
+  "studentName": "Mei",
+  "subject": "Eng",
+  "stepNum": "02",
+  "subStep": [
+    {
+      "description": "learnt abc",
+      "grade": "D",
+      "evidence": null
+    },
+    {
+      "description": "learnt edf",
+      "grade": "E",
+      "evidence": null
+    }
+  ],
+  "overallGrade": "2E",
+  "term": "autumn",
+  "calenderYear": "2024",
+  "year": "Year 11",
+  "class": "Group A"
+},
+{
+  "studentID": "1003",
+  "studentName": "Dylan",
+  "subject": "Comp Sci",
+  "stepNum": "01",
+  "subStep": [
+    {
+      "description": "learnt html",
+      "grade": "D",
+      "evidence": null
+    },
+    {
+      "description": "learnt css",
+      "grade": "E",
+      "evidence": null
+    }
+  ],
+  "overallGrade": "2E",
+  "term": "autumn",
+  "calenderYear": "2024",
+  "year": "Year 11",
+  "class": "Group B"
+}
+]

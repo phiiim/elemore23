@@ -1,0 +1,16 @@
+[{
+    "_id":{
+        "$oid":"65cb581268aa8b64a798248d"
+    },
+    "studentID":"1000",
+    "studentName":"Oscar Yu",
+    "calenderYear":"2024",
+    "year":"Year 11",
+    "LAC":true,
+    "PP":false,
+    "WRAT_WRA":{"$numberInt":"11"},
+    "WRAT_NPR":{"$numberInt":"11"},
+    "WRAT_SA":{"$numberInt":"10"},
+    "AR_RA":{"$numberInt":"12"}
+    }
+]

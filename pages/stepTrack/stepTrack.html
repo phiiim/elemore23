@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steps Tracker Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+    <link rel="stylesheet" href="../../component/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script defer src="../../component/sidebar/sidebar.js"></script>
+    <link rel="stylesheet" href="stepTrack.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script defer src="stepTrack.js"></script> 
+</head>
+<body>
+    <side-bar></side-bar>
+    <div class="content">
+
+        <span class="title">Steps Tracker</span>
+
+        <div class="path">
+            <select class="form-select" id="Calender Year" aria-label="Default select example">
+              <option>Calender Year</option>
+            </select>
+  
+            <select class="form-select" id="Year" aria-label="Default select example">
+              <option>Year</option>
+            </select>
+  
+            <select class="form-select" id="Class" aria-label="Default select example">
+              <option>Class</option>
+            </select>
+  
+            <select class="form-select" id="Subject" aria-label="Default select example">
+              <option>Subject</option>
+        </select>
+            <button type="button" class="btn btn-secondary" id="clear">Clear</button>
+            <button type="button" class="btn btn-success" id="apply">Load Markbook</button>
+        </div>
+        <br>
+        <!--add hide function-->
+        <div id="choice">
+            <a href="javascript:void(0);" onclick="showSection('Steps', 'Evidences');"><span></span>STEP</a>
+            <a href="javascript:void(0);" onclick="showSection('Evidences', 'Steps');"><span></span>EVIDENCE</a>
+        </div>               
+        <br>
+        <section id="defaulttable">    
+            <div id="stepTrackTableTitle"></div>
+            <table id="stepTrackTable"></table>
+            <br>
+            <br>
+        </section>
+        <!--steps function-->
+        <section id="Steps" style="display:none;">
+            <span class="title">Steps:</span>
+            <table id="stepTable"></table>
+                <td onclick="cycleGrade(this)"></td>
+            <br>
+            <button id="saveButton">Save</button>
+            <br>
+            
+            <table style="margin: 5%;">
+                <thead>
+                    <tr>
+                        <th style="width: 45%;">Step</th>
+                        <th style="width: 26%">Overall Step description</th>
+                        <th style="width: 40%">Percentage achieved (from data in table/graph)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Very secure</td>
+                        <td>S+</td>
+                        <td>91-100%</td>
+                    </tr>
+                    <tr>
+                        <td>Secure</td>
+                        <td>S</td>
+                        <td>81-90%</td>
+                    </tr>
+                    <tr>
+                        <td>Approaching secure</td>
+                        <td>S-</td>
+                        <td>71-80%</td>
+                    </tr>
+                    <tr>
+                        <td>Highly developed</td>
+                        <td>D+</td>
+                        <td>61-70%</td>
+                    </tr>
+                    <tr>
+                        <td>Developing</td>
+                        <td>D</td>
+                        <td>51-60%</td>
+                    </tr>
+                    <tr>
+                        <td>Beginning to develop</td>
+                        <td>D-</td>
+                        <td>41-50%</td>
+                    </tr>
+                    <tr>
+                        <td>Emerged</td>
+                        <td>E+</td>
+                        <td>31-40%</td>
+                    </tr>
+                    <tr>
+                        <td>Emerging onto step</td>
+                        <td>E</td>
+                        <td>21-30%</td>
+                    </tr>
+                    <tr>
+                        <td>Just on step</td>
+                        <td>E-</td>
+                        <td>11-20%</td>
+                    </tr>
+                    <tr>
+                        <td  colspan="2">Just on step. Unless previous step secure cannot progress</td>
+                        <td>0-20% if on step 1</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+        <br>
+        <!-- evidence section -->
+        <section id="Evidences" style="display:none;">
+            <span class="title">Evidences:</span>
+            <br>
+            <br>
+            <div id="evidenceTableTitle"></div>
+        <!-- <section id="Evidences"> -->
+            <table id="evidenceTable"></table>
+            <br>
+            <table id="studentCardList"></table>
+            <br>
+                <br>
+                <form id="evidenceForm" enctype="multipart/form-data">
+                    <h1>Evidence Form</h1>
+                    <br>
+                    <label for="dateForm">Date: *</label>
+                    <br>
+                    <input type="date" name="date" id="evidencedate" class="Form_Info" required>
+                    <br>
+                    <br>
+                    <label for="studentNameSelect">Student: *</label>
+                    <select id="studentNameSelect" name="studentName" class="Form_Info" required>
+                        <option value="">Select a student</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="termSelect">Term: *</label>
+                    <select id="termSelect" name="term" class="Form_Info" required>
+                        <option value="">Select Term</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="evidencetype">Evidence Type: *</label>
+                    <select id="evidencetype" name="evidencetype" class="Form_Info" required>
+                        <option value="Select Evidence">Select Evidence</option>
+                        <option value="Assignment">Assignment</option>
+                        <option value="Test">Test</option>
+                        <option value="Exam">Exam</option>
+                        <option value="Homework">Homework</option>
+                        <option value="Classwork">Classwork</option>
+                        <option value="Project">Project</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="evidenceform">Evidence File: *</label>
+                    <br>
+                    <input type="file" name="evidenceFile" id="evidenceFile" class="Form_Info" required>
+                    <br>
+                    <br>
+                    <label for="commentForm">Comment: *</label>
+                    <br>
+                    <textarea type="text" name="comment" id="comment" class="Form_Info" placeholder="Comment..." required></textarea>
+                    <br>
+                    <br>
+                    <div id="Submit"></div>
+                    <input type="button" name="clear" class="btn btn-light" value="clear" id="clearform">
+                    <input type="button" name="add" class="btn btn-success" value="Add" onclick="addClient();" id="SignupBtn">
+                    <hr>
+                    </div>
+                    <br>
+                    
+                </form>
+            <br>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
